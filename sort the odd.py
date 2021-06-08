@@ -19,7 +19,7 @@ def sort_array(source_array):
         # if the integer being iterated over is an odd number:
         if source_array[j] % 2 != 0:
             # replace that integer with the first indexed number from the oddLst (oddLst[0])
-            source_array[j] = oddLst[int]
+            source_array[j] = oddLst[oddLst_index]
             # add 1 to value of int to update index from 0 to 1 
             oddLst_index += 1
     return source_array 
